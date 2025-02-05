@@ -37,7 +37,7 @@
     background: var(--color-primary); /* Ndrysho ngjyrën nëse nuk duket mirë */
 }
 
- .sswiper-pagination-bullet .swiper-pagination-bullet{
+ .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal{
     background: var(--color-primary);
  }
 
