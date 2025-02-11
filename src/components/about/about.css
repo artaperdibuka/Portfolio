@@ -5,8 +5,9 @@
 }
 
 .about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
+    width: 85%;
+    height: auto;
+    
     border-radius: 2rem;
     background: linear-gradient(
         45deg, 
@@ -15,14 +16,19 @@
         transparent
     );
     display: grid;
+    background-size: cover; /* Ky ndryshim do ta bëjë gradientin të mbulojë hapësirën */
+    background-position: center;
     place-items: center;
 }
 
 .about__me-image{
+    width: 100%; /* Siguron që imazhi të mbulojë gjithë hapësirën */
+    height: auto;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    object-fit: cover;
 }
 
 .about__me-image:hover{

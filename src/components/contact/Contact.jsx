@@ -12,9 +12,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('', '', form.current,'',
-      )
+    emailjs.sendForm('service_r87gtqr', 'template_s0vm5wc', form.current,'SwM09EEBlGRMChti4')
+
+    e.target.reset();
       
   };
 
@@ -28,22 +28,20 @@ const Contact = () => {
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>johhny@gmail.com</h5>
-            <a href="mailto:johhny@gmail.com" target="_blank" rel="noreferrer"> Send a message</a>
+            <h5>arta4840@gmail.com</h5>
+            <a href="mailto:arta4840@gmail.com" target="_blank" rel='noreferrer'> Send a message</a>
           </article>
           <article className='contact__option'>
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>JohhnDoe</h5>
-<a href="https://m.me/johnnydoee" target="_blank" rel="noreferrer"> Send a message</a>
-
+            <h5>Arta Përdibuka</h5>
+            <a href="https://m.me/artaperdibukaa" target="_blank" rel='noreferrer'> Send a message</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>JohhnDoe</h5>
-<a href="https://api.whatsapp.com/send?phone=+383123456" target="_blank" rel="noreferrer"> Send a message</a>
-
+            <h5>Arta Përdibuka</h5>
+            <a href="https://api.whatsapp.com/send?phone=+38349159293" target="_blank" rel='noreferrer'> Send a message</a>
           </article>
 
         </div>
